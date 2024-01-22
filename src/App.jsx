@@ -9,12 +9,12 @@ function App() {
         <div style={{ background: "pink", width: "30%" }}> Pink </div>
       </div> */}
      {/* below is tailwind class plus we can't write class like in html as class is reserved word in jsx so we use className instead */}
-      <div className="grid grid-cols-5 mx-2 text-center">
-        <div className="bg-red-500  mx-1 col-span-2"> Red </div>
-        <div className="bg-green-500 mx-1 col-span-2"> Green </div>
-        <div className="bg-pink-500 basis-1/3 mx-1 col-span-1"> Pink </div>
+      <div className="grid grid-cols-1 mx-2 text-center md:grid-cols-5">
+        <div className="bg-red-500  mx-1 my-1 md:col-span-2"> Red </div>
+        <div className="bg-green-500 mx-1 my-1 md:col-span-2"> Green </div>
+        <div className="bg-pink-500 mx-1 my-1 md:col-span-1"> Pink </div>
       </div>
-
+    
     </>
   );
 }
