@@ -1,7 +1,10 @@
+import Button from '@mui/material/Button';
+
 // eslint-disable-next-line react/prop-types
 export const RevenueCard = ({ title, orderCount, amount }) => {
   return (
     <div className="bg-white rounded shadow-md p-4">
+     <Button variant="contained">Contained</Button>
       <div className="text-gray-700 flex">
         <div>{title}</div>
         <svg
